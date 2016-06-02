@@ -17,7 +17,13 @@ parts:
     plugin: python3
     source: git://github.com/ericoporto/fgmk
     source-type: git
-    python-packages: [numpy, pillow]
+    python-packages: 
+      - numpy
+      - pillow
     build-packages: [libjpeg-dev]
-    stage-packages: [python3-pyqt5,  python3-pyqt5.qtwebkit]
+    stage-packages: 
+      - python3-pyqt5
+      - python3-pyqt5.qtwebkit
+      - libc-bin
+      - locales
 
