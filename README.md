@@ -16,4 +16,4 @@ On a clean Ubuntu 16.04 install, you need to install the following
 
 ### Installing Snap locally
 
-    sudo snap install fgmk_0.1_amd64.snap
+    sudo snap install fgmk_0.1.0_amd64.snap
