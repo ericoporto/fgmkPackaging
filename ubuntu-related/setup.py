@@ -31,8 +31,8 @@ setup(
     package_data = {
         'fgmk': ['img/*.png','coreimg/*.png','actions/*.json','*.json','basegame.tar.gz']
     },
-    data_files=[('/usr/share/applications', ['fgmk.desktop']),
-                ('/usr/share/icons', ['fgmk.svg', 'fgmk-map.svg']),
-                ('/usr/share/mime/packages', ['fgmk.xml'])]
+    data_files=[('/usr/share/applications', ['data/fgmk.desktop']),
+                ('/usr/share/icons', ['data/fgmk.svg', 'data/fgmk-map.svg']),
+                ('/usr/share/mime/packages', ['data/fgmk.xml'])]
 
 )
