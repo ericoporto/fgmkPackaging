@@ -1,5 +1,5 @@
 name: fgmk
-version: 0.1.0 
+version: 0.1.0
 summary: a tool similar to old rpgmaker
 description: |
  FGMK is a tool to help you create a 2D top down RPG game that runs
@@ -12,18 +12,17 @@ apps:
   fgmk:
     command: fgmk
 
-parts: 
-  fgmk: 
+parts:
+  fgmk:
     plugin: python3
     source: git://github.com/ericoporto/fgmk
     source-type: git
-    python-packages: 
+    python-packages:
       - numpy
       - pillow
     build-packages: [libjpeg-dev]
-    stage-packages: 
+    stage-packages:
       - python3-pyqt5
       - python3-pyqt5.qtwebkit
       - libc-bin
       - locales
-
