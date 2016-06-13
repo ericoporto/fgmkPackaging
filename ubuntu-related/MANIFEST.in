@@ -1,2 +1,2 @@
 include setup.py fgmk AUTHORS README COPYING
-recursive-include data/* src/ *.py *.json *.png basegame.tar.gz
+recursive-include data/* src/ *.py *.json *.png basegame.tar.gz fgmk.desktop fgmk-map.svg fgmk.svg fgmk.xml
