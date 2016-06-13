@@ -33,6 +33,6 @@ setup(
     }
     data_files=[('/usr/share/applications', ['fgmk.desktop']),
                 ('/usr/share/icons', ['fgmk.svg', 'fgmk-map.svg']),
-                ('/usr/share/mime/packages', ['fgmk.xml'])],
+                ('/usr/share/mime/packages', ['fgmk.xml'])]
 
 )
