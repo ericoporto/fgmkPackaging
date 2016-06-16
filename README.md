@@ -21,13 +21,13 @@ On a clean Ubuntu 16.04 install, you need to install the following
 
 ## Deb
 
-To generate a `.deb` from fgmk source
+To generate a `.deb` from fgmk source, got to deb folder and type make-deb.sh
 
-    git clone https://github.com/ericoporto/fgmk.git
-    cd fgmk
-    python3 setup.py --command-packages=stdeb.command bdist_deb
+    cd deb
+    ./make-deb.sh
 
-The `.deb` file will be in the folder `deb_dist`, with the name `python3-fgmk_1.0.0-1_all.deb`
+The `.deb` file will be in the folder `deb\build\fgmk\deb_dist`, with the name
+`python3-fgmk_1.0.0-1_all.deb` .
 
 
 ### Building dependencies
