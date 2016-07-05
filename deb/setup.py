@@ -29,7 +29,7 @@ setup(
     package_dir = {"": "src"},
     scripts = ["fgmk"],
     package_data = {
-        'fgmk': ['img/*.png','coreimg/*.png','actions/*.json','*.json','basegame.tar.gz','icon.png']
+        'fgmk': ['data/*.png','data/*.json','data/basegame.tar.gz']
     },
     data_files=[('/usr/share/applications', ['fgmk.desktop']),
                 ('/usr/share/icons', ['fgmk.svg', 'fgmk-map.svg']),
